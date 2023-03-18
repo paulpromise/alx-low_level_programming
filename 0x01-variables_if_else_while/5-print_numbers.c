@@ -10,9 +10,8 @@ int main(void)
 
 	while (a < 10)
 	{
-		putchar(a + '0');
+		putchar(a + '0'\n);
 		a++;
-		putchar('\n');
 	}
 	return (0);
 }
